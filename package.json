@@ -1,0 +1,15 @@
+{
+  "name": "cxa-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass styles/main.scss public/main.css",
+    "js": "@babel/cli scripts --out-dir public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Codixia/cxa-website.git"
+  },
+  "private": true
+}
