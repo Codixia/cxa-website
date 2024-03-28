@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass styles/main.scss public/main.css",
-    "js": "@babel/cli scripts --out-dir public"
+    "scss": "node-sass --watch views/src/sass/main.scss views/src/css/main.css"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Codixia/cxa-website.git"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
 }
