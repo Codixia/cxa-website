@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solutions Codixia — Infrastructures, Applications & Playgrounds</title>
+    <meta
+      name="description"
+      content="Découvrez les offres Codixia : infrastructures réseaux souveraines, applications auto-hébergées et plateformes de jeu sur mesure."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Manrope:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <canvas id="constellation" aria-hidden="true"></canvas>
+    <div class="noise-overlay" aria-hidden="true"></div>
+    <div class="liquid liquid--top" aria-hidden="true"></div>
+    <div class="liquid liquid--bottom" aria-hidden="true"></div>
+
+    <header class="site-header glass">
+      <a class="logo" href="index.html">
+        <img src="full_icon_w.svg" alt="Codixia" />
+        <span>Codixia</span>
+      </a>
+      <nav class="site-nav">
+        <a href="solutions.html" aria-current="page">Solutions</a>
+        <a href="index.html#collectif">Collectif</a>
+        <a href="manifesto.html">Manifesto</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <a class="btn ghost" href="index.html#contact">Discuter d'un projet</a>
+    </header>
+
+    <main class="page-main">
+      <section class="page-hero panel panel--strong">
+        <p class="eyebrow">Solutions Codixia</p>
+        <h1>Des architectures liquides, du câble aux expériences utilisateurs</h1>
+        <p>
+          Nous concevons des infrastructures souveraines, développons des applications sur mesure et
+          opérons des univers de jeu qui vous appartiennent. Chaque offre est pensée pour vivre seule
+          ou s’imbriquer dans un dispositif global cohérent.
+        </p>
+        <div class="hero__actions">
+          <a class="btn primary" href="#infrastructures">Explorer nos domaines</a>
+          <a class="btn ghost" href="index.html#collectif">Rencontrer l'équipe</a>
+        </div>
+      </section>
+
+      <section id="infrastructures" class="page-section">
+        <div class="panel page-section-inner">
+          <div class="page-section-header">
+            <p class="eyebrow">01 • Infrastructures liquides</p>
+            <h2>Des réseaux souverains, prêts pour les pics de charge</h2>
+            <p>
+              Fibre, radio, backbone hybride, hyperviseurs bare-metal ou clusters Kubernetes&nbsp;:
+              nous assemblons des briques modernes pour construire un socle qui reste sous votre
+              gouvernance et s’adapte dans le temps.
+            </p>
+          </div>
+          <div class="page-grid grid-three">
+            <article class="page-card">
+              <h3>Architectures réseaux & data centers</h3>
+              <p>
+                Conception et déploiement de réseaux maillés, segmentation Zero Trust, firewalls
+                nouvelle génération, monitoring en temps réel.
+              </p>
+            </article>
+            <article class="page-card">
+              <h3>Cloud privé & virtualisation</h3>
+              <p>
+                Hyperviseurs Proxmox ou VMware, clusters Kubernetes, stockage distribué Ceph,
+                orchestrations GitOps et sauvegardes souveraines.
+              </p>
+            </article>
+            <article class="page-card">
+              <h3>Opérations continues</h3>
+              <p>
+                Supervision 24/7, centre de commande Codixia, runbooks partagés, transfert de
+                compétences et formation de vos équipes.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="applications" class="page-section">
+        <div class="panel page-section-inner">
+          <div class="page-section-header">
+            <p class="eyebrow">02 • Applications sur mesure</p>
+            <h2>Des produits auto-hébergés qui respectent vos flux</h2>
+            <p>
+              De la conception d’API à la réalisation de SaaS complets, nous construisons des
+              expériences digitales qui se branchent sur vos systèmes et évoluent au rythme de vos
+              métiers.
+            </p>
+          </div>
+          <div class="page-grid grid-three">
+            <article class="page-card">
+              <h3>Design produit & UX souveraine</h3>
+              <p>
+                Recherche terrain, design system modulable, prototypage rapide et accessibilité
+                pensée pour les équipes internes et vos clients.
+              </p>
+            </article>
+            <article class="page-card">
+              <h3>Développements et intégrations</h3>
+              <p>
+                Applications web, microservices, portails métiers, intégrations ERP / CRM, pipelines
+                CI/CD et qualité contractuelle automatisée.
+              </p>
+            </article>
+            <article class="page-card">
+              <h3>SaaS self-host</h3>
+              <p>
+                Packager vos produits en mode SaaS auto-hébergé, multi-tenant, facturation intégrée,
+                observabilité et support codifié.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="playgrounds" class="page-section">
+        <div class="panel page-section-inner">
+          <div class="page-section-header">
+            <p class="eyebrow">03 • Playgrounds & univers de jeu</p>
+            <h2>Des terrains immersifs pour communautés et esports</h2>
+            <p>
+              Qu’il s’agisse de serveurs Minecraft moddés, d’une plateforme sociale gamifiée ou d’un
+              portail esports, nous gérons les enjeux de latence, de modération et de scalabilité.
+            </p>
+          </div>
+          <div class="page-grid grid-three">
+            <article class="page-card">
+              <h3>Serveurs de jeu haute fréquence</h3>
+              <p>
+                Infrastructure bare-metal optimisée, modpacks custom, équilibrage, orchestrations
+                dynamiques et anti-triche intégré.
+              </p>
+            </article>
+            <article class="page-card">
+              <h3>Plateformes communautaires</h3>
+              <p>
+                Profils joueurs, systèmes de progression, events en direct, analytics temps réel et
+                outils de modération pour vos équipes.
+              </p>
+            </article>
+            <article class="page-card">
+              <h3>XR & expérimentations</h3>
+              <p>
+                Prototypage d’expériences VR / AR, streaming volumétrique, intégration périphériques
+                et tests de charge multi-utilisateurs.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section">
+        <div class="panel page-section-inner">
+          <div class="page-section-header">
+            <p class="eyebrow">Delivery Codixia</p>
+            <h2>Un accompagnement pour vous laisser la main</h2>
+            <p>
+              Nos missions se terminent toujours par la transmission de nos outils et savoir-faire.
+              Vous pouvez choisir d’opérer en autonomie ou de nous confier le run, avec une visibilité
+              complète sur les opérations.
+            </p>
+          </div>
+          <div class="page-grid grid-three">
+            <article class="page-card">
+              <h3>Documentation vivante</h3>
+              <p>
+                Cartographies, schémas d’architecture, procédures et accès livrés à jour dans votre
+                espace self-host.
+              </p>
+            </article>
+            <article class="page-card">
+              <h3>Observabilité partagée</h3>
+              <p>
+                Dashboards Grafana, alerting codifié, tests de continuité et revues trimestrielles
+                avec votre équipe.
+              </p>
+            </article>
+            <article class="page-card">
+              <h3>Support modulable</h3>
+              <p>
+                Régie d’exploitation, astreintes Codixia, mentoring de vos équipes, transfert complet
+                ou accompagnement hybride.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer glass">
+      <div class="footer-brand">
+        <img src="min_icon_w.svg" alt="Codixia" />
+        <p>
+          Codixia — Infrastructures réseaux souveraines, applications auto-hébergées et univers de jeu
+          sur mesure.
+        </p>
+      </div>
+      <div class="footer-meta">
+        <span>© <span id="year"></span> Codixia. Tous droits réservés.</span>
+        <div class="footer-links">
+          <a href="politique-confidentialite.html">Politique de confidentialité</a>
+          <a href="mentions-legales.html">Mentions légales</a>
+          <a href="manifesto.html">Manifesto</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
