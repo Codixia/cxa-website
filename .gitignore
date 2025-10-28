@@ -1,2 +1,11 @@
+# Ignore dependency directories
 /node_modules
 /vendor
+/.env
+.DS_Store
+/logs
+.vscode
+
+# Ignore build files
+/dist
+/build
